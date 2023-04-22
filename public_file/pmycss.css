@@ -1,0 +1,367 @@
+/* body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: monterrat;
+    background: linear-gradient(120deg,#2980b9,#8e44ad );
+}
+
+#lvOne {
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+#lvTwo {
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.imgmenu {
+    height: 25px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.itemsmenu {
+    height: 100%;
+    margin-right: 1px;
+    border-right-style: outset;
+    border-right-width: 0.1px;
+    float: left;
+}
+
+.itemsmenu:hover {
+    background-color: #ffff99;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.imgmenu:hover {
+    height: 32px;
+}
+
+.imgHanghoa {
+    height: auto;
+    width: 170px;
+}
+
+.imgHanghoa:hover {
+    height: auto;
+    width: 180px;
+}
+
+.itemsHanghoa {
+    min-height: 300px;
+    width: 180px;
+    border: outset;
+    border-width: 0.1px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.itemsHanghoa:hover {
+    cursor: pointer;
+}
+
+.itemsViewHangHoa {
+    min-height: 500px;
+    width: 70%;
+    border: outset;
+    border-width: 0.1px;
+    margin: 5px auto;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.imgViewHanghoa {
+    height: auto;
+    width: 450px;
+}
+.loginBody {
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(red, green, blue, alpha);
+} */
+/* body {
+    background-color: gainsboro;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: monterrat;
+    background: linear-gradient(120deg,#2980b9,#8e44ad );
+}
+
+#lvOne {
+    height: 50px;
+    width: 100%;
+    background-color: cadetblue;
+}
+
+#lvTwo {
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.imgmenu {
+    height: 25px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.itemsmenu {
+    height: 100%;
+    margin-right: 1px;
+    border-right-style: outset;
+    border-right-width: 0.1px;
+    float: left;
+}
+
+.itemsmenu:hover {
+    background-color: #ffff99;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.imgmenu:hover {
+    height: 32px;
+}
+
+.imgHanghoa {
+    height: auto;
+    width: 170px;
+}
+
+.imgHanghoa:hover {
+    height: auto;
+    width: 180px;
+}
+
+.itemsHanghoa {
+    min-height: 300px;
+    width: 180px;
+    border: outset;
+    border-width: 0.1px;
+    float: left;
+    margin: 5px;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.itemsHanghoa:hover {
+    cursor: pointer;
+}
+
+.itemsViewHangHoa {
+    min-height: 500px;
+    width: 70%;
+    border: outset;
+    border-width: 0.1px;
+    margin: 5px auto;
+    background-color: white;
+    padding: auto auto;
+    box-shadow: 5px 5px #cccccc;
+}
+
+.imgViewHanghoa {
+    height: auto;
+    width: 450px;
+}
+.loginBody {
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgba(red, green, blue, alpha);
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #ccc;
+
+    
+}
+a{
+    text-decoration: none;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+
+.header{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.wrapper-account{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+
+}
+
+
+.login-header{
+    color: #333;
+    
+}
+.wrapper-login{
+    width: 150px;
+    height: 100px;
+    
+    
+}
+/* search */
+.wrapper-search{
+    position: relative;
+    display: flex;
+    width: 700px;
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    
+}
+.search{
+    width: 100%;
+    height: 100%;
+
+}
+.search input{
+    width: 100%;
+    height: 100%;
+
+}
+
+.account{
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin: 10px;
+
+
+}
+.wrapper-register{
+
+}
+/* .register{
+    height: 1300px;
+    width: 100px;
+    color: #333;
+    background-color: green;
+    border-radius: 5px;
+   justify-content: space-around;
+   
+
+} */
+
+
+/* ---------------------------- */
+.wrapper-ui-product{
+    display: flex;
+
+}
+/* menu */
+
+.itemsmenu{
+    display: flex;
+    margin: 10px 0;
+}
+.imgmenu{
+    height: 50px;
+    width: 50px;
+
+}
+/* ------------------ */
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lvTwo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    flex: 1;
+
+}
+.lvThree{
+    flex: 4;
+}
+.itemone{
+    border-radius: 10px;
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 4px 4px 6px rgba(0, 0,0,0.5);
+    margin: 10px;
+    overflow: hidden;
+}
+.itemsHanghoa{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.imgHanghoa{
+    width: 180px;
+    height: 180px;
+    background-color: #333;
+}
+.info-product{
+
+}
+.tensanpham{
+width: 100%;
+text-align: center;
+font-size: 17px;
+font-weight: 300;
+background-color: #ccc;
+margin-bottom: 12px;
+height: 20px;
+
+
+}
+.giasanpham{
+width: 100%;
+text-align: center;
+font-size: 17px;
+font-weight: 300;
+background-color: #ccc;
+height: 20px;
+
+
+}
+
+
